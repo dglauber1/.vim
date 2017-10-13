@@ -1,0 +1,40 @@
+Vim tips 
+ 
+ TODO:
+ - [x] Upload .vimrc to github
+ - [x] Create a key mapping for resizing windows
+ 
+ gcc to (un)comment line
+ cs”’ to Change Surroundings from double quotes to single
+ Cs’<p> to change surroundings from single quote to p tag
+ cst” to change surroundings from tag to double quotes
+ ds” to delete surrounding double quotes
+ 
+ cit to change inner tag (ex: between <p> tags)
+ ciw, ci” work too
+ 
+ Ctrl-n to autocomplete
+ 
+ Map ctrl up/down to move a line of code up or down. Ctrl-option up/down duplicates a line...
+ NVM now up and down are mapped to resize window. 
+ Try coming up with another mapping for this useful purpose
+ 
+ t goes forward till given character
+ f goes forward 1 past given character
+ 
+# or * immediately searches for word under cursor?
+ 
+ ctrl-[ instead of esc!
+ 
+ ; repeats forward navigation
+ 
+ , <enter> maps to :noh
+ , w maps to :w
+ 
+ :tabe <file> opens a file in a new tab
+ gt goes to the next tab 
+ gT goes to the previous tab
+ {i}gt goes to tab if the left child's maximum height augmentation is not greater than $j$,
+ either descend down to the right child and continue this procedure, or if the right child 
+ does not exist or the right child's max height augmentation is not greater than $j$,
+ return the current node as the successor.
