@@ -27,7 +27,7 @@ set cmdheight=2
 set tabstop=4
 set shiftwidth=4
 set expandtab
-color darkblue
+colorscheme codedark " darkblue is good too
 set title
 set smarttab
 set scrolloff=5
