@@ -11,6 +11,7 @@ set hidden
 set hlsearch
 set incsearch
 set wildmenu
+set path+=**
 set showcmd
 set showmatch
 set matchtime=3
